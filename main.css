@@ -1,0 +1,48 @@
+*    {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    user-select: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1:hover {
+    background-color: aqua;
+    color: red;
+    transition: all .25s ease;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor p{
+    background-color: rgb(68, 65, 65);
+   
+    margin: 10px;
+    padding: 10px;
+    border-radius: 2.5px;
+}
+
+.contenedor p a {
+    color: white;
+}
+
+.contenedor p:hover {
+    background-color: rgb(24, 23, 23);
+    transition: all 0.25s ease;
+}
+
+.proyecto {
+    text-align:center;
+    font-size: 1.5em;
+  
+}
