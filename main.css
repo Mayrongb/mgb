@@ -143,7 +143,7 @@ ul li{
 
 .descriptionBox {
     margin-left: 1em;
-    width: 50em;
+    width: 80%;
 
 }
     .descriptionBox h3{
@@ -176,3 +176,9 @@ ul {
 
 
 
+@media screen and (max-width:800px) {
+    .navRight li {
+        display: none;
+    }
+
+}
